@@ -1,0 +1,47 @@
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.home-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.home-description {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.featured-products-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.no-featured-products {
+    font-size: 1.1rem;
+    color: #777;
+}
+
+.home-options  button{
+
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: space-between;
+    margin: 100px;
+}
+.home-options button:hover{
+        background-color: gold;
+}
